@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/Js/lib/jquery-3.6.0.js"></script>
+    <script src="/Js/lib/bootstrap.js"></script>
+    <title>Mabrur</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <!-- <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">MABRUR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+  <!--  Header-->
+  <div class="container">
+    <div class="row write">
+      <div class="col-md-6">
+        <div class="content">
+         <h4>WELCOME TO MABRUR</h4>
+         <h1 id="head">Restaurants and more, delivered to your doorstep</h1>
+         <h3 id="size">We Make Delivery Easy</h3>
+         <a href="#layer1"><button type="button" class="btn btn-outline-secondary bun">View Menu</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- //Header  -->
+
+
+<!-- Menu -->
+<div id="layer1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>OUR MENU</h2>
+      </div>
+      <!-- Pastry -->
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <h3>Pastry Delight</h1>
+          <button class="learn-more see-all">
+            <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                <span class="button-text">See</span>
+                <span class="button-text2"> All</span>
+            </span>
+        </button>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card" style="width: 18rem;">
+          <img src="/Image/nerfee-mirandilla-AHKKd2Vy5no-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sprinkled flavoured Dougnut</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-outline-secondary order" onClick="openOrder()">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card" style="width: 18rem;">
+          <img src="/Image/rachel-park-hrlvr2ZlUNk-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Waffles with side strawberries</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-outline-secondary order" onClick="openOrder()">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card extra" style="width: 18rem;">
+          <img src="/Image/jordane-mathieu-eDC7851HvYk-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Cake</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-outline-secondary order" onClick="openOrder()">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card extra" style="width: 18rem;">
+          <img src="/Image/priscilla-du-preez-SU5jSHu1pK8-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Brown Crust Covered Cherry Pie</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-outline-secondary order" onClick="openOrder()">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+
+      </div>
+      <div class="col-md-6" style="float: right;">
+      <button type="button" class="btn btn-outline-success see-less">Success</button>
+    </div>
+    </div>
+  </div>
+  <!-- //Pastry -->
+
+  <!-- Swallow -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <h3>Swallow</h1>
+          <a href="index.html" id="move"><button class="learn-more"href="index.html">
+            <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+                <span class="button-text">See</span>
+                <span class="button-text2"> All</span>
+            </span>
+        </button></a>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card" style="width: 18rem;">
+          <img src="/Image/femoree-kn_ANxnwCQ0-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fufu & soup</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-outline-secondary order" onClick="openOrder()">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+        <div class="card" style="width: 18rem;">
+          <img src="/Image/armando-ascorve-morales-ypZI_CA91M0-unsplash.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-outline-secondary order" onClick="openOrder()">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- //Pastry -->
+      
+      
+      <div class="model-container">
+        <div class="card orderbox" style="width: 30rem;" id="orderbox">
+          <i class="fas fa-times close"></i>
+          <img src="/Image/nerfee-mirandilla-AHKKd2Vy5no-unsplash.jpg" class="card-img-top img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Average sized bucket cup Ice cream</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="container">
+            <a href="#"><button type="button" class="btn btn-outline-secondary order-pop">Add to Cart</button></a>
+            
+            <h6>
+            <i class="fas fa-minus-circle" id="m"></i>
+                  <span id="display">1</span>
+            <i class="fas fa-plus-circle" id="p"></i></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- //Menu -->
+
+
+<script src="/Js/main.js"></script>
+</body>
+</html>
+

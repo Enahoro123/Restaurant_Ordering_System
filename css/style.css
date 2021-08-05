@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Image/first.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height:100%;
+    width: 100%;
+}
+.content{
+    padding-top: 25%;
+    padding-bottom:50%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0,4),
+                 0px 8px 13px rgba(0,0,0,0,1),
+                 0px 18px 23px rgba(0,0,0,0,1);
+}
+.write{
+    color: #fff;
+}
+#head{
+    font-size: 400%;
+    font-weight: 700;
+}
+.bun{
+    color: #fff;
+    outline: none;
+    border-color: rgb(121, 207, 121);
+    border-radius: px;
+    margin-top: 10px;
+}
+.bun:hover{
+     background-color: rgb(121, 207, 121);
+     outline: none;
+}
+#layer1{
+    background-color: white;
+    width: 100%;
+}
+h2{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+h3{
+    padding-bottom: 2%;
+}
+hr{
+    width: 50%;
+    padding-bottom: 5px;
+    background-color:  rgb(121, 207, 121)  !important;
+}
+.order{
+    color: #fff;
+    outline: none;
+    background-color: rgb(121, 207, 121);
+    border-color: rgb(121, 207, 121);
+}
+.order:hover{
+     background-color: rgb(57, 212, 57);
+     outline: none;
+}
+
+.order-pop{
+    color: white;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    margin-bottom: 0%;
+    background-color: rgb(121, 207, 121);
+    border-radius: 20px;
+    outline: none;
+}
+.order-pop:hover{
+     background-color: rgb(57, 212, 57);
+     outline: none;
+}
+.card-text {
+    padding-bottom: 5%;
+}
+.card{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.orderbox{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+}
+.img{
+
+    padding: 2%;
+    width: 100%;
+}
+.fa-times{
+    padding: 3%;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-plus-circle{
+    cursor: pointer;
+}
+.fa-minus-circle{
+    cursor: pointer;
+} 
+span{
+    margin-left: 27%;
+    padding-right: 20%;
+}
+.model-container{
+    position: fixed;
+    min-height: 100vh;
+    width: 100vw;
+    top: 0;left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    transform: scale(0);
+}
+.extra{
+    position:fixed;
+    width: 100vw;
+    transform: scale(0);
+}
